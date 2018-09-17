@@ -1,23 +1,5 @@
 # galleryLeftOrRight
 a gallery plugin, you can easily construct a loop-sliding-gallery structure,set the data-direction of gallery element to determine which diection your gallery may slide.
-demo:
-<div class="my-gallery" data-direction="left"><!--configure your gallery sliding direction HERE-->
-			<div class="my-gallery-wrapper">
-				<ul class="my-gallery-loop-item"><!--the gallery content which includes several li-blocks-->
-					<li><a href="https://www.baidu.com"><img src="../../../images/cbd.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/midnightRun.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/muwu.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/shuijiao.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/sider-menu-bg.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/yuantiao.jpg"/></a></li>
-				</ul>
-				<ul class="my-gallery-loop-item">!--the duplicated gallery content to make a loop-->
-					<li><a href="https://www.baidu.com"><img src="../../../images/cbd.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/midnightRun.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/muwu.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/shuijiao.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/sider-menu-bg.jpg"/></a></li>
-					<li><a href="https://www.baidu.com"><img src="../../../images/yuantiao.jpg"/></a></li>
-				</ul>
-			</div>
-		</div>
+to use it correctly please read the way it used in 'scrollLeftOrRight.html'. details listed below:
+1. don't change the structure of a sliding-gallery,which include a 'my-gallery-class div' as the root, then a 'my-gallery-wrapper-class div' following,which contains the two contents--'my-gallery-loop-item'.you can put as many sub-itmes as you want in each contens, of course the width-dimension of the sub-items of each content must be larger than the root-element -'my gallery-class div',it is the basic condition to make a loop.
+
