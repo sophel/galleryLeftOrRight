@@ -1,0 +1,30 @@
+	.my-gallery{
+		width: 800px;
+		overflow: hidden;
+		margin: 100px auto;
+		border: 1px solid #ddd;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	.my-gallery .my-gallery-wrapper{
+		white-space: nowrap;
+	}
+	.my-gallery-loop-item{
+		display: inline-block;
+		white-space: nowrap;
+		padding: 0;
+		margin: 0;
+	}
+	.my-gallery-loop-item li{
+		display: inline-block;
+	}
+	.my-gallery-loop-item li a{
+		display: inline-block;
+		width: 220px;
+		height: 150px;
+		padding: 5px;
+	}
+	.my-gallery-loop-item li a img{
+		width: 100%;
+		height: 100%;
+	}
